@@ -10,7 +10,7 @@
 html {
   font-family: sans-serif;
   /* 1 */
-  line-height: 1.15;
+  line-height: 1.3;
   /* 2 */
   -ms-text-size-adjust: 100%;
   /* 3 */
@@ -217,7 +217,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: serif;
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -403,9 +403,9 @@ template {
   display: none; }
 
 body {
-  background-color: #eaeaea;
+  background-color: #d9f3fa;
   position: relative;
-  font-family: 'Gloria Hallelujah', cursive; }
+  font-family: "Times New Roman", Georgia, Serif; }
   body:before {
     content: '';
     background-image: url(../dist/assets/pattern_alt.png);
@@ -436,20 +436,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.85); }
+    background-color: #d9f3fa; }
   #container #board_wrap {
     width: 65%;
     height: 100%;
-    background-color: #131313;
-    background-image: url(../dist/assets/pattern.png);
-    background-size: 300px;
+    background-color: #02021e;
+    background-image: url(../dist/assets/pattern2.png);
+    background-size: 600px;
     float: left;
     display: flex;
     align-items: center;
     justify-content: center; }
 
 #newgame {
-  background-color: #52d29d;
+  background-color: #95def1;
   border: none;
   padding: 13px 26px;
   border-radius: 2px;
